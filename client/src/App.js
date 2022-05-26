@@ -1,8 +1,15 @@
+import { Route, Routes } from 'react-router';
+import Loader from './layout/Loader';
+import Home from './components/Home'
 const App = () => {
   return ( 
     
-    <div><h1> Tech</h1></div>
+    <div>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+      </Routes>
     
+    </div>
    );
 }
  
