@@ -1,21 +1,18 @@
-
-
 const initialState = {
-  token: null, 
+  token: null,
   user: {
-      email:null,
-      id:null
+    email: null,
+    id: null,
   },
-   };
-   
-   const authReducer = (state = initialState, action) => {
-     const { type, payload } = action;
-   
-     switch (type) {
-       default:
-         return state;
-     }
-   };
-   
-   export default authReducer;
-   
+};
+
+const authReducer = (state = initialState, action) => {
+  const { type, payload } = action;
+
+  switch (type) {
+    default:
+      return state;
+  }
+};
+
+export default authReducer;
