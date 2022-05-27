@@ -11,4 +11,4 @@ const loaderReducer = (state = initialState, action) => {
   }
 };
 
-export default loaderReducer;
+export default loaderReducer

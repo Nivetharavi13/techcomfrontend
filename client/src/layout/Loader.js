@@ -12,7 +12,6 @@ const Loader = () => {
       <span class="loader-block"></span>
       <span class="loader-block"></span>
       <span class="loader-block"></span>
-      <span class="loader-block"></span>
     </div>
   );
 };
